@@ -112,7 +112,7 @@ li a {
 
 .contact-info { 
     border: 10px solid transparent;
-    padding: 15px;
+    /* padding: 15px; */
     /* margin: auto; */
     border-image: url() 30 stretch;
     border-image-slice: 30;
@@ -122,9 +122,11 @@ li a {
 .fa {
     text-decoration: none;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    margin: 10px;
 }
+
 
 
 .btnn {
