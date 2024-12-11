@@ -47,19 +47,19 @@ function Profile() {
             <li>About</li>
             <li>Jobs</li>
           </ul>
-          <div>
-            <h1>Fabulous</h1>
+          <div className="header-h1">
+            <h1><em>Fabulous</em></h1>
             <img src={abstract} alt="header"></img>
           </div>
         </div>
         <div className="about-section">
           <strong>We make Live, Push and Link -- unique software and hardware<br></br>
-          for music creation and performance. With these products, our community of<br></br>
-          users creates amazing things.
+            for music creation and performance. With these products, our<br></br> community of
+            users creates amazing things.
           </strong>
           <p>Our products are preferred by creative professionals and<br></br>
-          hobbyists alike. The world’s most famous producers, composers, and<br></br>
-          artists use our instruments to create the music you love.
+            hobbyists alike. The world’s most famous producers, composers, and<br></br>
+            artists use our instruments to create the music you love.
           </p>
         </div>
         <div className="news-section">
