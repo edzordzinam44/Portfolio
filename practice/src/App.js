@@ -10,6 +10,11 @@ import plain6 from './images/section-8.png'
 import plain7 from './images/section-9.png'
 import plain8 from './images/section-10.png'
 import plain9 from './images/section-11.png'
+import plain10 from './images/section-12.png'
+import plain11 from './images/section-13.png'
+import plain12 from './images/section-14.png'
+import plain13 from './images/section-15.png'
+import plain14 from './images/section-16.png'
 import './App.css';
 
 function Profile() {
@@ -114,12 +119,42 @@ function Profile() {
         <div className="speech-section">
           <p>
             <strong>We are passionate about how well make the world a better place and also<br></br>
-            lookng to change how people look at US.</strong><br></br>
+              looking to change how people look at US.</strong><br></br>
             We work hard to foster an evironment where people can grow both Personally and Professionally.<br></br>
             <br></br>
             Alongside is an internal program for employees and training programs actively supported in acquiring new<br></br>
             knowledge and skills, and coached on applying these in their daily activities.
           </p>
+        </div>
+        <div className="news-section-4">
+          <img src={plain10} alt="header"></img>
+          <img src={plain11} alt="header"></img>
+          <img src={plain12} alt="header"></img>
+        </div>
+        <div className="news-section-5">
+          <img src={plain13} alt="header"></img>
+          <div className="news-section-5-text">
+            <p><strong>We are really proud of the work<br></br>
+              we've done so far. But if'd like<br></br> to be a part of it, please do join us.</strong></p>
+            <br></br>
+            <h2>Join us</h2>
+            <div className="contact-section">
+              <button onClick={() => {
+                const contactList = document.querySelector('.contact-list');
+                if (contactList.style.display === 'none') {
+                  contactList.style.display = 'block';
+                } else {
+                  contactList.style.display = 'none';
+                }
+              }}>Contact Us</button>
+              <ul className="contact-list" style={{ display: 'none' }}>
+                <li>Email: contact@fabulous.com</li>
+                <li>Phone: +123456789</li>
+                <li>Address: 123 Fabulous St, Creativity City</li>
+              </ul>
+            </div>
+          </div>
+          <img src={plain14} alt="header"></img>
         </div>
       </body>
     </div>
