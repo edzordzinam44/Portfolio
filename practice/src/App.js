@@ -133,7 +133,7 @@ function Profile() {
         </div>
         <div className="news-section-5">
           <img src={plain13} alt="header"></img>
-          <div className="news-section-5-text">
+          <section className="news-section-5-text">
             <p><strong>We are really proud of the work<br></br>
               we've done so far. But if'd like<br></br> to be a part of it, please do join us.</strong></p>
             <br></br>
@@ -153,7 +153,7 @@ function Profile() {
                 <li>Address: 123 Fabulous St, Creativity City</li>
               </ul>
             </div>
-          </div>
+          </section>
           <img src={plain14} alt="header"></img>
         </div>
       </body>
