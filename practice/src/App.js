@@ -157,6 +157,24 @@ function Profile() {
           <img src={plain14} alt="header"></img>
         </div>
       </body>
+      <div classname="footer">
+        <h2>Abelton</h2>
+        <ul>
+          <li>Register, live or Push</li>
+          <li>About Abelton</li>
+          <li>Jobs, More +</li>
+        </ul>
+        <ul>
+          <li>Press Resources</li>
+          <li>Education</li>
+          <li>Live Performance</li>
+        </ul>
+        <ul>
+          <li>Legal Info</li>
+          <li>Privacy Policy</li>
+          <li>Cookie Policy</li>
+        </ul>
+      </div>
     </div>
   )
 };
