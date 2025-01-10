@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; /* or column */
+    justify-content: center; /* or flex-start, flex-end, space-between, space-around */
+    align-items: center; /* or flex-start, flex-end, stretch, baseline */
+}
+
+.box {
+    flex: 1; /* or any other flex-grow value */
+    padding: 10px;
+    margin: 5px;
+    background-color: lightblue;
+}
