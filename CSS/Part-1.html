@@ -5,24 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Part 1</title>
+    <link rel="stylesheet" href="./Part-1.css">
 </head>
 
 <body>
     <header>
-        <section>
-            <div>
-                <img src="./logo-1.svg" alt="page-logo" class="head-logo">
-                <h5>Abstract | Help Center</h5>
-            </div>
-            <div><button>Submit a resquest</button>
-                <button>Sign In</button>
+        <section class="head-section">
+            <div class="head-div">
+                <div class="img-div">
+                    <img src="./logo.png" alt="page-logo" class="head-logo">
+                    <h5>Abstract | Help Center</h5>
+                </div>
+                <div class="btnn">
+                    <button>Submit a resquest</button>
+                    <button>Sign In</button>
+                </div>
             </div>
         </section>
     </header>
     <main>
         <section class="main-section">
             <h1>How Can We Help You</h1>
-            <input placeholder="search">
+            <input placeholder="search" type="text">
         </section>
         <section class="main-section-1">
             <h3>Branches</h3>
@@ -96,6 +100,21 @@
             <img src="./logo.png" alt="footer" class="footer-logo">
             <p>&copy; 2023 My Portfolio. All rights reserved.</p>
         </div>
+        <h1>Form Heading</h1>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" maxlength="4" name="name"><br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" placeholder="Your age"><br><br>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br><br>
+        </form>
     </footer>
 </body>
 
