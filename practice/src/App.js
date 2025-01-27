@@ -215,7 +215,7 @@ function Profile() {
         </div>
         <div>
           <p>Made In Berlin{">>"}cloned in Ghana</p>
-          <p>Looks good now</p>
+          <p>Looooks good now</p>
         </div>
       </div>
     </div>
