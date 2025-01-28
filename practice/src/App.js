@@ -159,63 +159,65 @@ function Profile() {
           <img src={plain14} alt="header"></img>
         </div>
       </body>
-      <div className="footer">
-        <h2>Abelton</h2>
-        <div className="footer-list">
-          <div>
-            <li>Register, live or Push</li>
-            <li>About Abelton</li>
-            <li>Jobs, More +</li>
-            <a href={'https.com'} target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-facebook fa-2x"></i>
-              <i class="fab fa-x fa-2x"></i>
-              <i class="fab fa-youtube fa-2x"></i>
-              <i class="fab fa-instagram fa-2x"></i>
-            </a>
-          </div>
-          <div>
-            <li>Press Resources</li>
-            <li>Education</li>
-            <li>Live Performance</li>
-          </div>
-          <div className="footer-list-3">
-            <li>Sign up to our newsletter</li>
-            <li>Enter your email address to stay up to date with the latest offers</li>
-            <li>Tutorials, downloads and more</li>
-            <input type="text" placeholder="Email Address"></input>
-            <button>Sign Up</button>
-          </div>
-        </div>
-      </div>
-      <div className="footer-2">
-        <div className="footer-2-list"> <div>
-          <p>Community</p>
-          <p>Find Ableton User Groups {">"}</p>
-          <p>Find Certified Training {">"}</p>
-          <p>Become a Certified Trainer {">"}</p>
-        </div>
-          <div>
-            <p>Distributors</p>
-            <p>Find Distributors {">"}</p>
-            <p>Try Push in-store {">"}</p>
-          </div>
-          <div>
-            <p>Language and Location</p>
+      <div className="main-foot">
+        <div className="footer">
+          <h2>Abelton</h2>
+          <div className="footer-list">
+            <div>
+              <li>Register, live or Push</li>
+              <li>About Abelton</li>
+              <li>Jobs, More +</li>
+              <a href={'https.com'} target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook fa-2x"></i>
+                <i class="fab fa-x fa-2x"></i>
+                <i class="fab fa-youtube fa-2x"></i>
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+            </div>
+            <div>
+              <li>Press Resources</li>
+              <li>Education</li>
+              <li>Live Performance</li>
+            </div>
+            <div className="footer-list-3">
+              <li>Sign up to our newsletter</li>
+              <li>Enter your email address to stay up to date with the latest offers</li>
+              <li>Tutorials, downloads and more</li>
+              <input type="text" placeholder="Email Address"></input>
+              <button>Sign Up</button>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="footer-3">
-        <div>
-          <li>Contact Us</li>
-          <li>© 2021 Ableton AG</li>
-          <li>Legal Info</li>
-          <li>Privacy Policy</li>
-          <li>Cookie Settings</li>
-          <li>Imprint</li>
+        <div className="footer-2">
+          <div className="footer-2-list"> <div>
+            <p>Community</p>
+            <p>Find Ableton User Groups {">"}</p>
+            <p>Find Certified Training {">"}</p>
+            <p>Become a Certified Trainer {">"}</p>
+          </div>
+            <div>
+              <p>Distributors</p>
+              <p>Find Distributors {">"}</p>
+              <p>Try Push in-store {">"}</p>
+            </div>
+            <div>
+              <p>Language and Location</p>
+            </div>
+          </div>
         </div>
-        <div>
-          <p>Made In Berlin{">>"}cloned in Ghana</p>
-          <p>Looks good now</p>
+        <div className="footer-3">
+          <div>
+            <li>Contact Us</li>
+            <li>© 2021 Ableton AG</li>
+            <li>Legal Info</li>
+            <li>Privacy Policy</li>
+            <li>Cookie Settings</li>
+            <li>Imprint</li>
+          </div>
+          <div>
+            <p>Made In Berlin{">>"}cloned in Ghana</p>
+            <p>Looks good now</p>
+          </div>
         </div>
       </div>
     </div>

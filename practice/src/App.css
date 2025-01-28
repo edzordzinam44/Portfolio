@@ -352,6 +352,11 @@ body {
 
 .footer {
     margin: 20px 20px 20px 40px;
+    /* background-color: #eede86; */
+}
+
+.main-foot {
+    background-color: #eede86;
 }
 
 .footer h2 {
@@ -397,6 +402,7 @@ body {
 
 .footer-2 {
     margin: 70px 20px 20px 40px;
+    /* background-color: #eede86; */
 }
 
 .footer-2-list {
