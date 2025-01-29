@@ -118,3 +118,19 @@ input:valid {
     color: #66ff00;
     border: 4px solid #66ff00;
 } */
+
+.arrow {
+    height: 10px;
+    width: 15px;
+    margin-left: 5px;
+}
+
+/* Main Section -1 */
+.main-section-1 h3 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
