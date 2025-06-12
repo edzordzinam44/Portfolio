@@ -160,3 +160,21 @@ li a {
     color: white;
 }
 
+.brands-cont {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.brands-grid img {
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 20px;
+    display: block; /* Add this line to remove bottom space */
+}
+
+.brands-grid {
+    padding-top: 15%;
+    border-radius: 30px;
+    border: 1px solid #fff;
+}
